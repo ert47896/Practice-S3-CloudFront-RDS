@@ -18,6 +18,7 @@ def messageData():
                     "file_url": row[2]
                 }
                 responseSet["data"].insert(0, eachMessage)
+        connection_object.close()
         return jsonify(responseSet), 200
     except:
         return jsonify(error=True, message="伺服器內部錯誤！"), 500
