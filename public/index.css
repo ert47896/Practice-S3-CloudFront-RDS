@@ -1,11 +1,66 @@
 body{
-    font-family:"Noto Sans TC";
+	font-family: "Noto Sans TC";
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
-p{
-    font-size:20px;
+header{
+	width: 360px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #ffffff;
+	padding: 10px 0px;
+	background-color: #c08c73;
+	text-align: center;
+}
+form{
+	width: 360px;
+	background-color: #ffeee6;
+	margin-block-end: 0em;
+}
+.dataInput{
+	margin: 10px 0px 10px 30px;
+}
+.labelText{
+	font-weight: bold;
+}
+.remindword{
+	padding: 5px 0px;
+	font-size: 14px;
+}
+.submitBtn{
+	width: 50px;
+	font-size: 14px;
+	font-family: "Noto Sans TC";
+}
+#textinput{
+	border: none;
+	border-radius: 5px;
+}
+input[id=textinput]{
+	color: #757575;
+	padding: 5px;
+	font-size: 15px;
+	font-weight: bold;
+}
+input[id=fileinput]{
+	font-size: 14px;
+	font-family: "Noto Sans TC";
+}
+section{
+	width: 360px;
+	padding-top: 10px;
+	border-bottom: 1px solid #E8E8E8;
+	border-left: 1px solid #E8E8E8;
+	border-right: 1px solid #E8E8E8;
+	box-sizing: border-box;
 }
 img{
-    height:160px;
-    object-fit:cover;
-    object-position:center;
+	height:160px;
+	max-width: 320px;
+	object-fit:cover;
+	object-position:center;
+}
+.content{
+	margin: 0px 0px 10px 30px;
 }

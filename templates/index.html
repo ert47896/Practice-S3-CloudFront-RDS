@@ -8,12 +8,17 @@
 <body>
     <h1>圖文留言板</h1>
     <form action="/" method="POST" enctype="multipart/form-data">
-        <label for="uploadtext">文字內容</label>
-        <input type="text" name="uploadtext" required /><br/>
-        <label for="uploadfile">圖片檔案(接受png, jpg, jpeg, gif格式)</label>
-        <input type="file" name="uploadfile" required /><br/>
-        <button type="submit">送出</button>
-        <hr>
+		<div class="dataInput">
+			<label class="labelText" for="uploadtext">文字內容：</label>
+			<input id="textinput" type="text" name="uploadtext" placeholder="請輸入文字" required />
+		</div>
+		<div class="dataInput">
+		    <input id="fileinput" type="file" name="uploadfile" required />
+			<div class="remindword">圖片檔案(接受png, jpg, jpeg, gif格式)</div>
+		</div>
+		<div class="dataInput">
+			<button class="submitBtn" type="submit">送出</button>
+		</div>
     </form>
     <main></main>
 </body>
