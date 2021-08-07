@@ -21,15 +21,15 @@ let views = {
         mainContainer.innerHTML = "";
         for(i=0;i<data.length;i++){
             const messageContainer = document.createElement("section");
-            const textElement = document.createElement("p");
+            const textElement = document.createElement("div");
+			textElement.classList.add("content");
             const imgElement = document.createElement("img");
-            const hrElement = document.createElement("hr");
+			imgElement.classList.add("content");
             textElement.textContent = data[i].message;
             imgElement.src = data[i].file_url;
             imgElement.alt = "photo";
             messageContainer.appendChild(textElement);
             messageContainer.appendChild(imgElement);
-            messageContainer.appendChild(hrElement);
             mainContainer.appendChild(messageContainer);
         };
     }
