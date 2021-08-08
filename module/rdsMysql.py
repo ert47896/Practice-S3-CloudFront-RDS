@@ -3,7 +3,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-connection_pool = pooling.MySQLConnectionPool(
+pool_setting = pooling.MySQLConnectionPool(
     host = os.getenv("RDS_HOST"),
     port = os.getenv("PORT"),
     user = os.getenv("DB_USER"),
@@ -12,3 +12,4 @@ connection_pool = pooling.MySQLConnectionPool(
     pool_name = "mypool",
     pool_size = 5
 )
+connection_pool = pool_setting
