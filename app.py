@@ -12,7 +12,7 @@ app = Flask(__name__, static_folder="public", static_url_path="/")
 
 app.config["JSON_AS_ASCII"] = False         #避免中文顯示為ASII編碼
 app.config["TEMPLATES_AUTO_RELOAD"] = True  #True當flask偵測到template有修改會自動更新
-app.config["MAX_CONTENT_LENGTH"] = 16 * 1000 * 1000     #接受的上傳檔案單檔上限約16MB
+app.config["MAX_CONTENT_LENGTH"] = 2 * 1000 * 1000     #接受的上傳檔案單檔上限約2MB
 
 #Api
 app.register_blueprint(messageApi, url_prefix="/api")
