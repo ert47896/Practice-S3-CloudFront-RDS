@@ -11,7 +11,7 @@
 * 於AWS RDS建立資料庫
 * 運用AWS S3儲存圖片
 * 透過AWS CloudFront建立CDN系統
-* 申請SSL憑證提供HTTPS連線
+* 申請SSL憑證實踐HTTPS
 
 ### 功能介紹
 使用者輸入圖文內容點擊送出後，留言區即顯示所輸入內容
