@@ -13,6 +13,9 @@
 * 透過AWS CloudFront建立CDN系統
 * 申請SSL憑證實踐HTTPS
 
+## 系統架構圖
+![image](https://user-images.githubusercontent.com/24973056/128723555-248d9386-98fa-4242-b41d-9841fb622563.png)
+
 ### 功能介紹
 使用者輸入圖文內容點擊送出後，留言區即顯示所輸入內容
 
