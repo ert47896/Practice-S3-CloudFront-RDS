@@ -16,7 +16,7 @@
 ## 系統架構圖
 ![image](https://user-images.githubusercontent.com/24973056/128723555-248d9386-98fa-4242-b41d-9841fb622563.png)
 
-### 功能介紹
+## 功能介紹
 使用者輸入圖文內容點擊送出後，留言區即顯示所輸入內容
 
 ![image](https://user-images.githubusercontent.com/24973056/128659267-da0996a9-9bc6-465d-9ce4-667e9ed41dd8.png)
