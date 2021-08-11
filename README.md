@@ -9,7 +9,7 @@
 * 以 Python Flask 框架建立網站
 * 部署網頁於 AWS EC2
 * 於 AWS RDS 建立資料庫
-* 透由 boto3 連接 AWS S3 儲存圖片
+* 透由 Boto3 連接 AWS S3 儲存圖片
 * 透過 AWS CloudFront 建立 CDN 系統
 * 透由 Let's Encrypt 申請 SSL 憑證實踐 HTTPS
 
