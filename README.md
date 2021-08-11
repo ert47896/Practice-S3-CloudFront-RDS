@@ -6,12 +6,12 @@
 點擊網址前往圖文留言板網頁：https://board.taipeilife.info/
 
 ## 使用技術
-* Python Flask
-* 網頁建構於 AWS EC2
+* 以 Python Flask 框架建立網站
+* 部署網頁於 AWS EC2
 * 於 AWS RDS 建立資料庫
 * 透由 boto3 連接 AWS S3 儲存圖片
 * 透過 AWS CloudFront 建立 CDN 系統
-* 申請 SSL 憑證實踐 HTTPS
+* 透由 Let's Encrypt 申請 SSL 憑證實踐 HTTPS
 
 ## 系統架構圖
 ![image](https://user-images.githubusercontent.com/24973056/128723555-248d9386-98fa-4242-b41d-9841fb622563.png)
