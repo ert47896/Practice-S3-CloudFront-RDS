@@ -58,7 +58,7 @@ section{
 img{
 	height:160px;
 	max-width: 320px;
-	object-fit:cover;
+	object-fit:contain;
 	object-position:center;
 }
 .content{
