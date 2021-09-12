@@ -1,9 +1,6 @@
-# [圖文留言板](https://board.taipeilife.info/)
+# [圖文留言板]
 
 本專案提供使用者圖文留言功能
-
-## Demo
-點擊網址前往圖文留言板網頁：https://board.taipeilife.info/
 
 ## 使用技術
 * 以 Python Flask 框架建立網站
